@@ -19,7 +19,7 @@ body {
 }
 
 section {
-  height: 120vh;
+  height: 100vh;
   width: 100%;
   max-width: 1366px;
   margin: 0 auto;
@@ -106,4 +106,22 @@ section {
 .content-text p:nth-child(odd) {
   color: var(--yellow);
   font-weight: 700;
+}
+
+.cta{
+  text-align: center;
+  padding: 1.6rem 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  background: var(--yellow);
+  width: 240px;
+  height: 50px;
+  margin: 2.4rem auto;
+  font-size: 1.8rem;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 400;
+  border-radius: 100px;
 }
